@@ -1,0 +1,18 @@
+{
+    "name": "juan/cerberus",
+    "autoload": {
+        "psr-4": {
+            "Juan\\Cerberus\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Juan Ensuncho",
+            "email": "juan.ensuncho@gobiernobogota.gov.co"
+        }
+    ],
+    "require": {
+        "mikecao/flight": "^2.0",
+        "firebase/php-jwt": "^6.5"
+    }
+}

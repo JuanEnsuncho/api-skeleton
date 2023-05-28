@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'juan/cerberus',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => NULL,
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'firebase/php-jwt' => array(
+            'pretty_version' => 'v6.5.0',
+            'version' => '6.5.0.0',
+            'reference' => 'e94e7353302b0c11ec3cfff7180cd0b1743975d2',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../firebase/php-jwt',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'juan/cerberus' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => NULL,
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'mikecao/flight' => array(
+            'pretty_version' => 'v2.0.1',
+            'version' => '2.0.1.0',
+            'reference' => 'a130231646e6c7a9e2504a9025f851e9a3bf1975',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../mikecao/flight',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
